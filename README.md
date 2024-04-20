@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-WebStudio CSS hw-02
+# goit-markup-hw-03
+WebStudio CSS hw-03 (positioning)
