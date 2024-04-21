@@ -78,15 +78,16 @@ body {
 }
 
 /* ====== HEADER ====== */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 
@@ -98,6 +99,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .span-logo {
@@ -164,7 +166,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto 48px;
 }
 
@@ -192,7 +194,7 @@ body {
 /* ====== BENEFITS ====== */
 .benefits-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .benefits-list-title {
@@ -217,7 +219,7 @@ body {
 /* ====== TEAM ====== */
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team {
@@ -288,11 +290,8 @@ body {
 
 /* ====== FOOTER ====== */
 .page-footer {
-  background: #2e2f42;
-}
-
-.footer-container {
   padding: 100px 0;
+  background: #2e2f42;
 }
 
 .footer-logo {
